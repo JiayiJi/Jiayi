@@ -1,4 +1,4 @@
-baseurl = "https://jiayi.rbind.io/"
+baseurl = "jiayi.rbind.io/"
 title = "Jiayi Ji"
 copyright = "&copy; 2017 Jiayi Ji"
 theme = "hugo-academic"
