@@ -5,6 +5,7 @@
     <link>/</link>
     <description>Recent content in Jiayi Ji on Jiayi Ji</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <copyright>&amp;copy; 2017 Jiayi Ji</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
@@ -83,7 +84,9 @@ As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</descr
 &lt;h4 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/pdf/P8111_Final_Project.pdf&#34;&gt;Final Report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;/pdf/P8111_Final_Project.pdf&#34;&gt;Final Report&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/JiayiJi/P8111-Final-Project/tree/master&#34; target=&#34;_blank&#34;&gt;Source Code and Dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;date&#34;&gt;Date&lt;/h4&gt;
