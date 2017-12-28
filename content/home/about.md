@@ -30,7 +30,7 @@ weight = 5
 
 # About me
 
-I am a second-year biostatistics master student at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). Prior to switching careers into statistics, I earned my M.D in preventive medicine from [Fudan University](http://www.fudan.edu.cn/en/). I am passionate about analyzing data in public health/hospital setting. Recently I am getting more interested in data science and machine learning. My goal is to become an outstanding data analyst. 
+I am a second-year biostatistics master student at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). Prior to switching careers into statistics, I earned my M.D in preventive medicine at [Fudan University](http://www.fudan.edu.cn/en/). I am passionate about analyzing data in public health/hospital setting. Recently I am getting more interested in data science and machine learning. My goal is to become an outstanding data analyst. 
 
 In my spare time, I like watching movies and sports games, listening musics, reading books, hiking, etc.
 
