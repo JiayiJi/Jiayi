@@ -38,5 +38,8 @@ I assessed the relationship between gender and salary using a case from the Unit
 
 - [Final Report](/pdf/P8111_Final_Project.pdf)
 
+
+- [Source Code and Dataset](https://github.com/JiayiJi/P8111-Final-Project/tree/master)
+
 #### Date
 2017-05-06
