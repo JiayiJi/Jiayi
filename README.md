@@ -2,13 +2,15 @@ This is Jiayi Ji's personal website. It is built with blogdown and hugo, now hos
 
 How to Build this site manually
 
-1. [If starting from scratch...] Clone the github repo into RStudio  
+1. If you are starting from scratch, clone the github repo into RStudio or first creating a project on your computer and then add the directory to your git client (and, optionally, create remote repository).  
 
-    - My preferred method of making new repos as RStuio Projects...
+    - My preferred method of making new repos as RStuio Projects
     
         1. Start at Github.com > New Repo
         1. Clone [new & empty] Repo as new project into Rstudio IDE running on localhost
         1. git push -- README.md, license.md, and .gitignore
+
+Check out [Jeff Goldsmith's lecture material](http://jeffgoldsmith.com/DSI/git.html) if you want to adopt the latter approach.
     
 2. `library(blogdown)` [Resources:  [github](https://github.com/rstudio/blogdown), [Yihui's Book](https://bookdown.org/yihui/blogdown/)]
 
@@ -16,7 +18,7 @@ How to Build this site manually
     
         - `devtools::install_github('rstudio/blogdown')`
         - `blogdown::install_hugo()`
-            - only need to do this once, but...
+            - only need to do this once, but
             - might need to, occasionally but not initially, run `blogdown::update_hugo()`
         - `blogdown::new_site(theme = "gcushen/hugo-academic")` 
             - must be a completely empty directory except for .Rproj file
@@ -39,5 +41,5 @@ How to Build this site manually
     - For Manual Deployment, Optionally stop blogdown server.  Drag `public` directory to netlify.com deploy
     - For Continuous Depolyment, set up according to the [Netlify Docs](https://www.netlify.com/docs/continuous-deployment/) pointing to the `/public` of an appropriate github repository.
 
-        - I used Command = `hugo_0.19`.  I Probably need to follow the [additional steps](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/) for beyond version 0.20, but version 0.19 works and it was easiest.
+        - You need to set Command = `hugo_0.31`. Otherwise, Netlify won't let you set up your website. I found this through trial and error.
 
