@@ -35,3 +35,9 @@ My work involved:
 1. Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data.
 2. Comparing and Contrasting different machine learning methods (Boosting, SVM, Random Forest, etc) using cross-validation.
 3. Creating clear and compelling reports, visualizations, and interactive apps for collaborators in R Markdown.
+
+#### Additional Resources
+
+- [Final Report](/pdf/P9120_Final_Project.pdf): This is my paper for Fall 2017 course: P9120 Topics in Statistical Learning & Data Mining taught by [Min Qian](https://www.mailman.columbia.edu/people/our-faculty/mq2158).
+
+- [Slide](https://jiayiji.github.io/P9120-Final-Project-Slide/Final_Project_Slide.html): This is my slide for Fall 2017 course: P9120 Topics in Statistical Learning & Data Mining taught by [Min Qian](https://www.mailman.columbia.edu/people/our-faculty/mq2158).

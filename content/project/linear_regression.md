@@ -29,3 +29,14 @@ caption = "My caption :smile:"
 +++
 
 This is my final project for Spring 2017 course: [P8111 Linear Regression Models](http://jeffgoldsmith.com/P8111/).
+
+#### Abstract
+
+I assessed the relationship between gender and salary using a case from the United States District Court of Houston. Several multiple regression models were conducted and yielded convergent finding: male and female doctors were equivalently paid taking account of other productivity-related attributes. While these results should be reassuring, they would not go very far toward resolving salary discrimination disputes. The difficulties of employing statistical analyses within a politically-charged arena are discussed.
+
+#### Additional Resources
+
+- [Final Report](/pdf/P8111_Final_Project.pdf)
+
+#### Date
+2017-05-06

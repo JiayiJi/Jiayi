@@ -72,7 +72,23 @@ As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</descr
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/linear_regression/</guid>
-      <description>&lt;p&gt;This is my final project for Spring 2017 course: &lt;a href=&#34;http://jeffgoldsmith.com/P8111/&#34; target=&#34;_blank&#34;&gt;P8111 Linear Regression Models&lt;/a&gt;.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;This is my final project for Spring 2017 course: &lt;a href=&#34;http://jeffgoldsmith.com/P8111/&#34; target=&#34;_blank&#34;&gt;P8111 Linear Regression Models&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;I assessed the relationship between gender and salary using a case from the United States District Court of Houston. Several multiple regression models were conducted and yielded convergent finding: male and female doctors were equivalently paid taking account of other productivity-related attributes. While these results should be reassuring, they would not go very far toward resolving salary discrimination disputes. The difficulties of employing statistical analyses within a politically-charged arena are discussed.&lt;/p&gt;
+
+&lt;h4 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/pdf/P8111_Final_Project.pdf&#34;&gt;Final Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;date&#34;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;2017-05-06&lt;/p&gt;
 </description>
     </item>
     
@@ -104,7 +120,25 @@ As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</descr
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/latent_variable/</guid>
-      <description>&lt;p&gt;This is my final project for Spring 2017 course: P8158 Latent Variable and Structural Equation Modeling for Health Sciences taught by &lt;a href=&#34;http://www.columbia.edu/~mmw2177/&#34; target=&#34;_blank&#34;&gt;Melanie M. Wall&lt;/a&gt;.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;This is my final project for Spring 2017 course: P8158 Latent Variable and Structural Equation Modeling for Health Sciences taught by &lt;a href=&#34;http://www.columbia.edu/~mmw2177/&#34; target=&#34;_blank&#34;&gt;Melanie M. Wall&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;Uncontrolled hypertension can lead to serious health problems, including heart attack and stroke. Our data comes from the masked hypertension study, which collected ambulatory blood pressure data and measured physical activity using accelerometers in order to better understand what factors contribute to high blood pressure. We used latent growth curve modeling to analyze the data.&lt;/p&gt;
+
+&lt;h4 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;/pdf/P8158_Final_Project.pdf&#34;&gt;Final Report&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;/pdf/LV_presentation.pdf&#34;&gt;Slide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;date&#34;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;2017-04-22&lt;/p&gt;
 </description>
     </item>
     
@@ -178,7 +212,9 @@ As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</descr
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/flu/</guid>
-      <description>&lt;p&gt;This work is mentored by Sasikiran Kandula and &lt;a href=&#34;http://blogs.cuit.columbia.edu/jls106/&#34; target=&#34;_blank&#34;&gt;Jeffrey Shaman&lt;/a&gt; in the &lt;a href=&#34;https://www.mailman.columbia.edu/become-student/departments/environmental-health-sciences-ehs&#34; target=&#34;_blank&#34;&gt;Department of Environmental Health Sciences at Columbia University&lt;/a&gt;.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;This work is mentored by Sasikiran Kandula and &lt;a href=&#34;http://blogs.cuit.columbia.edu/jls106/&#34; target=&#34;_blank&#34;&gt;Jeffrey Shaman&lt;/a&gt; in the &lt;a href=&#34;https://www.mailman.columbia.edu/become-student/departments/environmental-health-sciences-ehs&#34; target=&#34;_blank&#34;&gt;Department of Environmental Health Sciences at Columbia University&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My work involved:&lt;/p&gt;
 
@@ -187,6 +223,14 @@ As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</descr
 &lt;li&gt;Comparing and Contrasting different machine learning methods (Boosting, SVM, Random Forest, etc) using cross-validation.&lt;/li&gt;
 &lt;li&gt;Creating clear and compelling reports, visualizations, and interactive apps for collaborators in R Markdown.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h4 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;/pdf/P9120_Final_Project.pdf&#34;&gt;Final Report&lt;/a&gt;: This is my paper for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://jiayiji.github.io/P9120-Final-Project-Slide/Final_Project_Slide.html&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;: This is my slide for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -15,7 +15,7 @@ selected = false
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["flu"]
+projects = [""]
 
 # Links (optional).
 url_pdf = ""
@@ -38,3 +38,4 @@ caption = ""
 +++
 
 This is my slide for final project for Fall 2017 course: P9120 Topics in Statistical Learning & Data Mining taught by [Min Qian](https://www.mailman.columbia.edu/people/our-faculty/mq2158).
+

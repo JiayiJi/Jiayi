@@ -29,3 +29,17 @@ caption = "My caption :smile:"
 +++
 
 This is my final project for Spring 2017 course: P8158 Latent Variable and Structural Equation Modeling for Health Sciences taught by [Melanie M. Wall](http://www.columbia.edu/~mmw2177/).
+
+#### Abstract
+
+Uncontrolled hypertension can lead to serious health problems, including heart attack and stroke. Our data comes from the masked hypertension study, which collected ambulatory blood pressure data and measured physical activity using accelerometers in order to better understand what factors contribute to high blood pressure. We used latent growth curve modeling to analyze the data.
+
+
+#### Additional Resources
+
+- [Final Report](/pdf/P8158_Final_Project.pdf)
+
+- [Slide](/pdf/LV_presentation.pdf)
+
+#### Date
+2017-04-22
