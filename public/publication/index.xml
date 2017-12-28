@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Jiayi Ji</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Jiayi Ji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jiayi Ji</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Estimating Influenza Incidence from Diagnostic Codes</title>
+      <link>/publication/flu_final_project/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/flu_final_project/</guid>
+      <description>&lt;p&gt;This is my paper for final project for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting Gender Salary Discrimination Using Multiple Regression</title>
+      <link>/publication/p8111_final_project/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/p8111_final_project/</guid>
+      <description>&lt;p&gt;This is my final paper for the final project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Latent Growth Analysis of Repeated Measures Blood Pressure Data</title>
+      <link>/publication/lv_final_project/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/lv_final_project/</guid>
+      <description>&lt;p&gt;This is our paper for the final project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effects of school breaks on influenza-like illness incidence in a temperate Chinese region: an ecological study from 2008 to 2015</title>
+      <link>/publication/2017-school-break-and-flu/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-school-break-and-flu/</guid>
+      <description>&lt;p&gt;OBJECTIVE: To assess the effects of winter/summer school breaks on occurrences of influenza-like illness (ILI).&lt;/p&gt;
+
+&lt;p&gt;METHODS: We jointly analysed ILI surveillance data with the timing of school breaks in a temperate district in Beijing, China from 2008 to 2015. ILI incidence rate ratios (IRRs) of schoolchildren (5–14 and 15–24 years of age) to adults (25–59 and &amp;gt;60 years of age) were used to measure the age shift of ILI incidence before, during and after the 4-week winter/7-week summer breaks. Serfling-based Poisson regression model with adjustment for unmeasured confounders was built to further assess the effect of winter school breaks.&lt;/p&gt;
+
+&lt;p&gt;RESULTS: ILI incidences were consistently lower during winter breaks than before winter breaks for all age groups. IRRs of younger schoolchildren aged 5–14 to adults were higher during winter school breaks than before breaks, while the opposite was true for the IRRs of older schoolchildren aged 15–24 to adults. Schoolchildren-to-adults IRRs during summer breaks were significantly lower than before or after school breaks (p&amp;lt;0.001).&lt;/p&gt;
+
+&lt;p&gt;CONCLUSIONS: Both winter and summer breaks were associated with reductions of ILI incidences among schoolchildren and adults. Our study contributes additional evidence on the effects of school breaks on ILI incidence, suggesting school closure could be effective in controlling influenza transmission in developing countries.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

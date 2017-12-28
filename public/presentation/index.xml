@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Jiayi Ji</title>
+    <link>/presentation/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Jiayi Ji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jiayi Ji</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/presentation/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>P9120 Final Project Presentation</title>
+      <link>/presentation/p9120-presentation-for-flu/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/presentation/p9120-presentation-for-flu/</guid>
+      <description>&lt;p&gt;More Words here&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
