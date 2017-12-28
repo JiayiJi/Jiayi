@@ -10,7 +10,7 @@ header:
   image: ''
 ---
 
-So, you want start a personal website? And you are also an R user? Then the R package [blogdown](https://github.com/rstudio/blogdown) is the best (state-of-the-art) way to create a static website that is generated using [RStudio](https://www.rstudio.com/).
+So, you want start a personal website? And you are also an R user? Then the R package [blogdown](https://github.com/rstudio/blogdown) is the best (state-of-the-art) way to create a static website that is generated using [RStudio](https://www.rstudio.com/). <!--more--> 
 
 My website is powered by the [academic](https://github.com/gcushen/hugo-academic) theme for [Hugo](https://gohugo.io/), a perfect theme for personal or academic websites, and is hosted on [Netlify](https://www.netlify.com/). For more details on how to build the website through the awesome blogdown R package, please check out my step-by-step tutorial in my [github repository](https://github.com/JiayiJi/JiayiJi). Feel free to contact me if you have questions.
 
