@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Jiayi Ji</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Jiayi Ji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jiayi Ji</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Latent Growth Analysis of Repeated Measures Blood Pressure Data</title>
+      <link>/talk/latent_variable_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/latent_variable_slide/</guid>
+      <description>&lt;p&gt;This is the slide for my my final project presentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Final</title>
+      <link>/talk/pnnl_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/pnnl_slide/</guid>
+      <description>&lt;p&gt;My principal contributions to team effort includes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Search and read the literature about animal disease and risk assessment for it.&lt;/li&gt;
+&lt;li&gt;Learn different statistical methods about risk assessment for animal health.&lt;/li&gt;
+&lt;li&gt;Communicate the methods to our teammates and lead the discussions to decide which methods to use for our app.&lt;/li&gt;
+&lt;li&gt;Translate the statistical methods to python codes to help Jacob write the codes more efficiently.&lt;/li&gt;
+&lt;li&gt;Compile and write the documentation of our app to help our teammates understand the big picture of our app.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predict Flu Incidence from Diagnostic Codes</title>
+      <link>/talk/flu_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/flu_slide/</guid>
+      <description>&lt;p&gt;This is my slide for final project for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

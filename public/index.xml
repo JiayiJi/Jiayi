@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiayi Ji on Jiayi Ji</title>
+    <link>/</link>
+    <description>Recent content in Jiayi Ji on Jiayi Ji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Jiayi Ji</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to Jiayi’s website</title>
+      <link>/post/welcome-to-jiayi-s-website/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-jiayi-s-website/</guid>
+      <description>&lt;p&gt;So, you want start a personal website? And you are also an R user? Then the R package &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; is the best (state-of-the-art) way to create a static website that is generated using &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;My website is powered by the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;academic&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a perfect theme for personal or academic websites, and is hosted on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. For more details on how to build the website through the awesome blogdown R package, please check out my step-by-step tutorial in my &lt;a href=&#34;https://github.com/JiayiJi/JiayiJi&#34; target=&#34;_blank&#34;&gt;github repository&lt;/a&gt;. Feel free to contact me if you have questions.&lt;/p&gt;
+
+&lt;p&gt;I will primarily use the website to share my projects and publications, as well as posts mostly related to data science and biostatistics.
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;New blog post: &amp;quot;Advice to aspiring data scientists: start a blog&amp;quot; &lt;a href=&#34;https://t.co/yMDHqviiBN&#34;&gt;https://t.co/yMDHqviiBN&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/9AdPUdbjtE&#34;&gt;pic.twitter.com/9AdPUdbjtE&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href=&#34;https://twitter.com/drob/status/930492543187513345?ref_src=twsrc%5Etfw&#34;&gt;November 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+As an aspiring data scientist, now it&amp;rsquo;s time to blog!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Estimating Influenza Incidence from Diagnostic Codes</title>
+      <link>/publication/flu_final_project/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/flu_final_project/</guid>
+      <description>&lt;p&gt;This is my paper for final project for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identifying melanoma prognostic biomarkers by integrating imaging data and genetic data</title>
+      <link>/project/melanoma/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/melanoma/</guid>
+      <description>&lt;p&gt;I am conducting research with &lt;a href=&#34;https://sites.google.com/view/ligen&#34; target=&#34;_blank&#34;&gt;Gen Li&lt;/a&gt; at the &lt;a href=&#34;https://www.mailman.columbia.edu/become-student/departments/biostatistics&#34; target=&#34;_blank&#34;&gt;Department of Biostatistics at Columbia University&lt;/a&gt;, Yvonne Saenger and Robyn Gartrell from &lt;a href=&#34;http://www.cumc.columbia.edu/&#34; target=&#34;_blank&#34;&gt;Columbia University Medical Center&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My work involved:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Creating interactive heat maps and adopting clustering analysis to explore hierarchical structure of melanoma gene expression data.&lt;/li&gt;
+&lt;li&gt;Building predictive model on recurrence using logistic regression with lasso penalty, and validated it on two separate cohorts using cross-validation with bootstrapping.&lt;/li&gt;
+&lt;li&gt;Communicating results of analyses, modeling, and tests through data visualization, interactive apps, and writing in R Markdown.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Paper in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting Gender Salary Discrimination Using Multiple Regression</title>
+      <link>/publication/linear_regression_project/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/linear_regression_project/</guid>
+      <description>&lt;p&gt;This is my final paper for the final project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Detecting Gender Salary Discrimination Using Multiple Regression</title>
+      <link>/project/linear_regression/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/linear_regression/</guid>
+      <description>&lt;p&gt;This is my final project for Spring 2017 course: &lt;a href=&#34;http://jeffgoldsmith.com/P8111/&#34; target=&#34;_blank&#34;&gt;P8111 Linear Regression Models&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZooRisk</title>
+      <link>/project/pnnl/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pnnl/</guid>
+      <description>
+
+&lt;p&gt;In the summer of 2017, I interned at &lt;a href=&#34;https://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm&#34; target=&#34;_blank&#34;&gt;Data Sciences &amp;amp; Analytics Group&lt;/a&gt; at &lt;a href=&#34;https://www.pnnl.gov/&#34; target=&#34;_blank&#34;&gt;Pacific Northwest National Laboratory&lt;/a&gt;. I collaborated with designers and programmers to produce a bio-surveillance web application, which will give real-time risk assessment for each news related to zoonotic diseases. My mentor is &lt;a href=&#34;https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=8834&#34; target=&#34;_blank&#34;&gt;Lauren Charles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following video gives a short introduction to our final web application.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Qy3B3xc1Z7A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h1 id=&#34;thanks-img-internship-background-jpg&#34;&gt;&lt;img src=&#34;/img/Internship_background.jpg&#34; alt=&#34;Thanks&#34; /&gt;&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Latent Growth Analysis of Repeated Measures Blood Pressure Data</title>
+      <link>/project/latent_variable/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/latent_variable/</guid>
+      <description>&lt;p&gt;This is my final project for Spring 2017 course: P8158 Latent Variable and Structural Equation Modeling for Health Sciences taught by &lt;a href=&#34;http://www.columbia.edu/~mmw2177/&#34; target=&#34;_blank&#34;&gt;Melanie M. Wall&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Latent Growth Analysis of Repeated Measures Blood Pressure Data</title>
+      <link>/publication/latent_variable_project/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/latent_variable_project/</guid>
+      <description>&lt;p&gt;This is our paper for the final project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effects of school breaks on influenza-like illness incidence in a temperate Chinese region: an ecological study from 2008 to 2015</title>
+      <link>/publication/bmj_open/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bmj_open/</guid>
+      <description>&lt;p&gt;OBJECTIVE: To assess the effects of winter/summer school breaks on occurrences of influenza-like illness (ILI).&lt;/p&gt;
+
+&lt;p&gt;METHODS: We jointly analysed ILI surveillance data with the timing of school breaks in a temperate district in Beijing, China from 2008 to 2015. ILI incidence rate ratios (IRRs) of schoolchildren (5–14 and 15–24 years of age) to adults (25–59 and &amp;gt;60 years of age) were used to measure the age shift of ILI incidence before, during and after the 4-week winter/7-week summer breaks. Serfling-based Poisson regression model with adjustment for unmeasured confounders was built to further assess the effect of winter school breaks.&lt;/p&gt;
+
+&lt;p&gt;RESULTS: ILI incidences were consistently lower during winter breaks than before winter breaks for all age groups. IRRs of younger schoolchildren aged 5–14 to adults were higher during winter school breaks than before breaks, while the opposite was true for the IRRs of older schoolchildren aged 15–24 to adults. Schoolchildren-to-adults IRRs during summer breaks were significantly lower than before or after school breaks (p&amp;lt;0.001).&lt;/p&gt;
+
+&lt;p&gt;CONCLUSIONS: Both winter and summer breaks were associated with reductions of ILI incidences among schoolchildren and adults. Our study contributes additional evidence on the effects of school breaks on ILI incidence, suggesting school closure could be effective in controlling influenza transmission in developing countries.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Latent Growth Analysis of Repeated Measures Blood Pressure Data</title>
+      <link>/talk/latent_variable_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/latent_variable_slide/</guid>
+      <description>&lt;p&gt;This is the slide for my my final project presentation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Final</title>
+      <link>/talk/pnnl_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/pnnl_slide/</guid>
+      <description>&lt;p&gt;My principal contributions to team effort includes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Search and read the literature about animal disease and risk assessment for it.&lt;/li&gt;
+&lt;li&gt;Learn different statistical methods about risk assessment for animal health.&lt;/li&gt;
+&lt;li&gt;Communicate the methods to our teammates and lead the discussions to decide which methods to use for our app.&lt;/li&gt;
+&lt;li&gt;Translate the statistical methods to python codes to help Jacob write the codes more efficiently.&lt;/li&gt;
+&lt;li&gt;Compile and write the documentation of our app to help our teammates understand the big picture of our app.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predict Flu Incidence from Diagnostic Codes</title>
+      <link>/talk/flu_slide/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/flu_slide/</guid>
+      <description>&lt;p&gt;This is my slide for final project for Fall 2017 course: P9120 Topics in Statistical Learning &amp;amp; Data Mining taught by &lt;a href=&#34;https://www.mailman.columbia.edu/people/our-faculty/mq2158&#34; target=&#34;_blank&#34;&gt;Min Qian&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimating Influenza Incidence from Diagnostic Codes</title>
+      <link>/project/flu/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/flu/</guid>
+      <description>&lt;p&gt;This work is mentored by Sasikiran Kandula and &lt;a href=&#34;http://blogs.cuit.columbia.edu/jls106/&#34; target=&#34;_blank&#34;&gt;Jeffrey Shaman&lt;/a&gt; in the &lt;a href=&#34;https://www.mailman.columbia.edu/become-student/departments/environmental-health-sciences-ehs&#34; target=&#34;_blank&#34;&gt;Department of Environmental Health Sciences at Columbia University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My work involved:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data.&lt;/li&gt;
+&lt;li&gt;Comparing and Contrasting different machine learning methods (Boosting, SVM, Random Forest, etc) using cross-validation.&lt;/li&gt;
+&lt;li&gt;Creating clear and compelling reports, visualizations, and interactive apps for collaborators in R Markdown.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
