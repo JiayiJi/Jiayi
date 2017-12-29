@@ -2,7 +2,7 @@
 title: 'In Search of Lost Time: 2016'
 author: Jiayi Ji
 date: '2017-12-28'
-slug: in-search-of-lost-time-2016
+slug: in-search-of-lost-time-2017
 categories: []
 tags: []
 header:
