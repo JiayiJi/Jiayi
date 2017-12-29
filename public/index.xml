@@ -11,14 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>In Search of Lost Time: 2016</title>
+      <link>/post/in-search-of-lost-time-2016/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/in-search-of-lost-time-2016/</guid>
+      <description>&lt;p&gt;2017 will gone, and I didn&amp;rsquo;t even have time to write one single blog post. An obvious inference should be, 2017 doesn&amp;rsquo;t exist&amp;hellip; &lt;/p&gt;
+
+&lt;p&gt;2017 was a year of struggle for me as a biostatistics master student. I spent most time at school learning statistical theories, which sometimes drove me nuts as I came from pure medical background. I do achieve excellent grades (straight A+) for my courses. But, are the proofs and derivations useful for my future career? It is not a silly question. Lots of my peers also feel the crunch.&lt;/p&gt;
+
+&lt;p&gt;Therefore, in 2016, I&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;learned some &lt;a href=&#34;https://www.datacamp.com/profile/11307120163&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;read &lt;a href=&#34;http://r4ds.had.co.nz/&#34; target=&#34;_blank&#34;&gt;R for Data Science&lt;/a&gt; from cover to cover 3 times,&lt;/li&gt;
+&lt;li&gt;employed tidyverse packages for my projects (&lt;code&gt;ggplot&lt;/code&gt;, &lt;code&gt;dplyr&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt; for analysis and &lt;code&gt;R Markdown&lt;/code&gt; and &lt;code&gt;xaringan&lt;/code&gt; for communication),&lt;/li&gt;
+&lt;li&gt;learned some concepts of machine learning through the &lt;a href=&#34;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about&#34; target=&#34;_blank&#34;&gt;online courses&lt;/a&gt; and the reader-friendly &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34; target=&#34;_blank&#34;&gt;textbook&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;learned some more concepts of machine learning through the classic &lt;a href=&#34;https://web.stanford.edu/~hastie/ElemStatLearn/&#34; target=&#34;_blank&#34;&gt;textbook&lt;/a&gt; and&lt;/li&gt;
+&lt;li&gt;didn&amp;rsquo;t write one single blog post, because all my spare time and coffee making time were simply run out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I feel much better after one year of burying my head in the sand. Keep tuned, 2018.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Welcome to Jiayi’s website</title>
       <link>/post/welcome-to-jiayi-s-website/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/welcome-to-jiayi-s-website/</guid>
-      <description>&lt;p&gt;So, you want start a personal website? And you are also an R user? Then the R package &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; is the best (state-of-the-art) way to create a static website that is generated using &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. &lt;/p&gt;
+      <description>&lt;p&gt;So, you want start a personal website? And you are also an R user? Then the R package &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;blogdown&lt;/code&gt;&lt;/a&gt; is the best (state-of-the-art) way to create a static website that is generated using &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. &lt;/p&gt;
 
-&lt;p&gt;My website is powered by the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;academic&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a perfect theme for personal or academic websites, and is hosted on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. For more details on how to build the website through the awesome blogdown R package, please check out my step-by-step tutorial in my &lt;a href=&#34;https://github.com/JiayiJi/JiayiJi&#34; target=&#34;_blank&#34;&gt;github repository&lt;/a&gt;. Feel free to contact me if you have questions.&lt;/p&gt;
+&lt;p&gt;My website is powered by the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34; target=&#34;_blank&#34;&gt;academic&lt;/a&gt; theme for &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a perfect theme for personal or academic websites, and is hosted on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. For more details on how to build the website through the awesome &lt;code&gt;blogdown&lt;/code&gt; R package, please check out my step-by-step tutorial in my &lt;a href=&#34;https://github.com/JiayiJi/JiayiJi&#34; target=&#34;_blank&#34;&gt;github repository&lt;/a&gt;. Feel free to contact me if you have questions.&lt;/p&gt;
 
 &lt;p&gt;I will primarily use the website to share my projects and publications, as well as posts mostly related to data science and biostatistics.
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;New blog post: &amp;quot;Advice to aspiring data scientists: start a blog&amp;quot; &lt;a href=&#34;https://t.co/yMDHqviiBN&#34;&gt;https://t.co/yMDHqviiBN&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/9AdPUdbjtE&#34;&gt;pic.twitter.com/9AdPUdbjtE&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Robinson (@drob) &lt;a href=&#34;https://twitter.com/drob/status/930492543187513345?ref_src=twsrc%5Etfw&#34;&gt;November 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
