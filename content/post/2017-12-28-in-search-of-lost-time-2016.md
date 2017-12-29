@@ -18,7 +18,7 @@ Therefore, in 2017, I
 
 * learned some [Python](https://www.datacamp.com/profile/11307120163),
 * read [R for Data Science](http://r4ds.had.co.nz/) from cover to cover 3 times,
-* employed tidyverse packages for my projects (`ggplot`, `dplyr` and `purrr` for analysis and `R Markdown` and `xaringan` for communication),
+* employed tidyverse packages for my projects (`ggplot`, `dplyr`, `purrr` for analysis and `R Markdown`, `xaringan` for communication),
 * learned some concepts of machine learning through the [online courses](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about) and the reader-friendly [textbook](http://www-bcf.usc.edu/~gareth/ISL/),
 * learned some more concepts of machine learning through the classic [textbook](https://web.stanford.edu/~hastie/ElemStatLearn/) and
 * didn't write one single blog post, because all my spare time and coffee making time were simply run out.
