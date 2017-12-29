@@ -1,5 +1,5 @@
 ---
-title: 'In Search of Lost Time: 2016'
+title: 'In Search of Lost Time: 2017'
 author: Jiayi Ji
 date: '2017-12-28'
 slug: in-search-of-lost-time-2017
@@ -14,7 +14,7 @@ header:
 
 2017 was a year of struggle for me as a biostatistics master student. I spent most time at school learning statistical theories, which sometimes drove me nuts as I came from pure medical background. I do achieve excellent grades (straight A+) for my courses. But, are the proofs and derivations useful for my future career? It is not a silly question. Lots of my peers also feel the crunch.
 
-Therefore, in 2016, I 
+Therefore, in 2017, I 
 
 * learned some [Python](https://www.datacamp.com/profile/11307120163),
 * read [R for Data Science](http://r4ds.had.co.nz/) from cover to cover 3 times,
