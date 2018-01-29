@@ -32,7 +32,7 @@ This work is mentored by Sasikiran Kandula and [Jeffrey Shaman](http://blogs.cui
 
 My work involved:
 
-1. Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data.
+1. Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data in electronic medical records.
 2. Comparing and Contrasting different machine learning methods (Boosting, SVM, Random Forest, etc) using cross-validation.
 3. Creating clear and compelling reports, visualizations, and interactive apps for collaborators in R Markdown.
 
