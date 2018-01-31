@@ -129,7 +129,7 @@
 &lt;p&gt;My work involved:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data.&lt;/li&gt;
+&lt;li&gt;Analyzing large datasets (~68 million) and exploring machine learning methods in MySQL and R to track real-time influenza incidence combining both diagnostic and virologic data in electronic medical records.&lt;/li&gt;
 &lt;li&gt;Comparing and Contrasting different machine learning methods (Boosting, SVM, Random Forest, etc) using cross-validation.&lt;/li&gt;
 &lt;li&gt;Creating clear and compelling reports, visualizations, and interactive apps for collaborators in R Markdown.&lt;/li&gt;
 &lt;/ol&gt;
