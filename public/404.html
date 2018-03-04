@@ -87,6 +87,27 @@
 
   
 
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+
   <title>404 Page not found | Jiayi Ji</title>
 
 </head>
@@ -201,10 +222,6 @@
   
   
   <h2>Posts</h2>
-  
-  <ul>
-    <li><a href="/post/test/">test</a></li>
-  </ul>
   
   <ul>
     <li><a href="/post/time-management/">Time Management</a></li>

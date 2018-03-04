@@ -87,6 +87,27 @@
 
   
 
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+
   <title>404 Page not found | Jiayi Ji</title>
 
 </head>
@@ -153,6 +174,10 @@
   
   <ul>
     <li><a href="/zh/post/2018-03-03-uncertainty/">知识的压缩与解压</a></li>
+  </ul>
+  
+  <ul>
+    <li><a href="/zh/post/2018-03-03-bias-variance/">统计学习中的 Bias-Variance Trade-Off</a></li>
   </ul>
   
   <ul>
