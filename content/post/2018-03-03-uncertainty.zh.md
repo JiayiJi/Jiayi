@@ -10,7 +10,7 @@ summary: "其实只有一种知识处理原则，那就是拥抱而不是放弃�
 
 ![](https://lh3.googleusercontent.com/b33hrrHb0DmOlmR1iI66p_ArSosoq5zNOwVZndnd9e1BRYCeH7skWKzJPSwEbKjratqlhHQBgr6qYextFNHvxU8rwgyBsnk7eZV3sDs8YvX3N7VigKcKp7UVEvDFwuPg1bbOyq4GwzS46ikkLw1PYlN-Jv9O7Yr6BBkF3pzTxl9JiISI5EuhckE0oDIbinLD6nVNo6AEN8iCU1ANn1kKvnx0GwBDk93kio-r_x4XmfPPBbJs1cdU2KsMAiwLQFE-mLB5IhWnVdQSXK9aaI3kh3Xhma2W92zl5EtwZNOS2OPeqKrBymh9Ij96QP2958f4AiTOtYI6iOfyk7boXpUKWvqMY61r_x7mUxkXpHp0WGkxz6dTk0zgxNLM-WZveGrRa4ORPWqPa_f42SLzcHMSJ55xXhI7ppqcwysmLclEl-V9ZwF80mgQQyLBJRsSgglZ35lRHMPo4NE8WX4e-l5AGclKTCW22gMwEXepqBuDh-APt4l-NT0xgZggZ9HlS01TpdekohLVi0WpARG_jPSWcqyZaaFi3Ge_egQGnA3yQ32S4XfKrQLwDaiZ4Bi8SDH6Z0Zz6TapTMo1WyJPjv4bPLF3xQwabAZTUqJzH8OXdxKc-ATcJQK-mVH_C0Q98DyMDaJyKvnu61GkWCLbOnX0mqefA6JASg3o=w1142-h856-no)
 
-因为自己在数据预处理方面也是一个学习者，目前没啥经验之谈，所以我想分享一个由此引申出来的问题，那就是信息（知识）预处理方面的感悟。
+因为自己在数据预处理方面也是一个初学者，目前没啥经验之谈，所以我想分享一个由此引申出来的问题，那就是信息（知识）预处理方面的感悟。
 
 说实话现在我们有了Google等搜索引擎之后，知识的本体记忆变得不那么重要而快速搜集资料并内化学习的能力越来越成为现代社会的必备生存技能。这种技能早期被称为个人知识管理，对于每个人而言都是不一样的，有的崇尚工具，有的依托记忆，其实本质上都是一套方法论体系。
 
@@ -38,4 +38,9 @@ summary: "其实只有一种知识处理原则，那就是拥抱而不是放弃�
 
 如果你的求知目标是确定的，例如拿到生统PhD迈入学术界，那这个问题就是 AI 可解可优化的，那么只要计算能力在提高，总有一天 AI 可以帮助你，然后替代你。但 AI 是无法提出并优化求解一个不存在或矛盾的问题的，不信你可以问 AI 电车难题，是要一个胖子死还是四个瘦子死，AI 解不了这类逻辑悖论或伦理问题，写不出 loss function或只能写一种原则下的 loss function或加权几种原则下 loss function，原则还是要人提出来。这类充满矛盾与不确定性的原则才是应该花费时间去思考的，焦虑未来的不确定性实在多余，未来总是有不确定性的，正是有不确定性人才不是机器。
 
-其实只有一种知识处理原则，那就是拥抱而不是放弃思考。
+说到不确定性，我又想起了Jenny Bryan在[访谈](https://www.statschat.org.nz/2017/12/15/jenny-bryan-you-need-a-huge-tolerance-for-ambiguity/)中的一段话，好久不读，是时候拿出来再温习一遍了。
+
+> **What skills and attributes make a good data scientist?** I think being naturally curious, doing something for the sake of answering the question versus a “will-this-be-in-the-test?” mentality – just trying to do the minimum.
+
+> You need a huge tolerance for ambiguity. This is a quality I notice that we’re spending a lot of time on in our Master of Data Science programme at UBC. Half the students have worked before and about half are straight out of undergrad, and the questions they ask us are so different. The people straight out of undergrad school expect everything to be precisely formulated, and the people who’ve worked get it, that you’re never going to understand every last thing; you’re never going to be given totally explicit instructions. Figuring out what you should be doing is part of your job. So the sooner you develop this tolerance for ambiguity [the better] – that makes you very successful, instead of waiting around to be given an incredibly precise set of instructions. Part of your job is to make that set of instructions.
+
