@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="author" content="Jiayi Ji">
+  <meta name="description" content="M.S. in Biostatistics Candidate">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2018-03-03-uncertainty.zh-copy/">
+
+  
+  
+
+
+  
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/blue.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111747160-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Jiayi Ji">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Jiayi Ji">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2018-03-03-uncertainty.zh-copy/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jiayi Ji">
+  <meta property="og:url" content="/post/2018-03-03-uncertainty.zh-copy/">
+  <meta property="og:title" content="知识的压缩与解压 | Jiayi Ji">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-03-03T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-03-03T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>知识的压缩与解压 | Jiayi Ji</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Jiayi Ji</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Post</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">知识的压缩与解压</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-03-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Mar 3, 2018
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/2018-03-03-uncertainty.zh-copy/#disqus_thread"></a>
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e7%9f%a5%e8%af%86%e7%9a%84%e5%8e%8b%e7%bc%a9%e4%b8%8e%e8%a7%a3%e5%8e%8b&amp;url=%2fpost%2f2018-03-03-uncertainty.zh-copy%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2f2018-03-03-uncertainty.zh-copy%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2018-03-03-uncertainty.zh-copy%2f&amp;title=%e7%9f%a5%e8%af%86%e7%9a%84%e5%8e%8b%e7%bc%a9%e4%b8%8e%e8%a7%a3%e5%8e%8b"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2f2018-03-03-uncertainty.zh-copy%2f&amp;title=%e7%9f%a5%e8%af%86%e7%9a%84%e5%8e%8b%e7%bc%a9%e4%b8%8e%e8%a7%a3%e5%8e%8b"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e7%9f%a5%e8%af%86%e7%9a%84%e5%8e%8b%e7%bc%a9%e4%b8%8e%e8%a7%a3%e5%8e%8b&amp;body=%2fpost%2f2018-03-03-uncertainty.zh-copy%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p>昨晚张少典学长来哥大介绍了他的公司，以及人工智能在中国医疗届的高速发展。整个讲座干货满满，但让我印象最深的还是他关于数据预处理重要性的论述。的确，中国医疗数据数量远超于其他任何国家，但其质量就不敢让人恭维。于是乎大量时间都得花在整理、标准化数据上，而传统的机器学习方法就在整个过程中就不那么重要啦。</p>
+
+<p><img src="https://lh3.googleusercontent.com/b33hrrHb0DmOlmR1iI66p_ArSosoq5zNOwVZndnd9e1BRYCeH7skWKzJPSwEbKjratqlhHQBgr6qYextFNHvxU8rwgyBsnk7eZV3sDs8YvX3N7VigKcKp7UVEvDFwuPg1bbOyq4GwzS46ikkLw1PYlN-Jv9O7Yr6BBkF3pzTxl9JiISI5EuhckE0oDIbinLD6nVNo6AEN8iCU1ANn1kKvnx0GwBDk93kio-r_x4XmfPPBbJs1cdU2KsMAiwLQFE-mLB5IhWnVdQSXK9aaI3kh3Xhma2W92zl5EtwZNOS2OPeqKrBymh9Ij96QP2958f4AiTOtYI6iOfyk7boXpUKWvqMY61r_x7mUxkXpHp0WGkxz6dTk0zgxNLM-WZveGrRa4ORPWqPa_f42SLzcHMSJ55xXhI7ppqcwysmLclEl-V9ZwF80mgQQyLBJRsSgglZ35lRHMPo4NE8WX4e-l5AGclKTCW22gMwEXepqBuDh-APt4l-NT0xgZggZ9HlS01TpdekohLVi0WpARG_jPSWcqyZaaFi3Ge_egQGnA3yQ32S4XfKrQLwDaiZ4Bi8SDH6Z0Zz6TapTMo1WyJPjv4bPLF3xQwabAZTUqJzH8OXdxKc-ATcJQK-mVH_C0Q98DyMDaJyKvnu61GkWCLbOnX0mqefA6JASg3o=w1142-h856-no" alt="" /></p>
+
+<p>因为自己在数据预处理方面也是一个学习者，目前没啥经验之谈，所以我想分享一个由此引申出来的问题，那就是信息（知识）预处理方面的感悟。</p>
+
+<p>说实话现在我们有了Google等搜索引擎之后，知识的本体记忆变得不那么重要而快速搜集资料并内化学习的能力越来越成为现代社会的必备生存技能。这种技能早期被称为个人知识管理，对于每个人而言都是不一样的，有的崇尚工具，有的依托记忆，其实本质上都是一套方法论体系。</p>
+
+<p>邮件日记、GTD、番茄时钟、康奈尔笔记法、晨间日记、紧急-重要四象限法则、甘特图、香肠战术……各种体系都有着自己的拥趸与应用场景，一般人从无到有时任何体系都会很大的改变工作效率，但一段时间后可能每种方法都不那么灵光了，方法本身可能没什么问题，更多的不协调可能是使用者本身过于依赖方法来实现目标而没有真正思考目标本身究竟是否适合方法背后的假设。</p>
+
+<p>就算我列出每种方法的适用场景恐怕也不能解决方法失灵问题，因为任何机械查表式的套用都有着大力丸跟万金油的嫌疑，属于思想上的懒惰，多半还会遇到使用者对场景的混淆。这方面我的建议是先随意找一种方法论完全吃透，然后在实践中发现其局限性，然后能动改进，形成自己的套路。</p>
+
+<p>人脑就是一个信息输入-输出系统，且能够即时反馈出的信息量有生理上限。知识管理的核心就是在有限的信息容量里装入尽可能多的信息，其实就是输入信息的压缩与解压方法。</p>
+
+<p>由此可以设想如果信息间是零散独立的，那么并不存在压缩信息的可能。不过如果很多信息可以抽象成一条信息，那么大脑的负担就可以迅速降低，但每次抽象都会损失信息量。同样，在使用或输出信息时，需要解压为具象的语言，此时知识需要增加信息量。</p>
+
+<p>当前流行的知识预处理更多关注了信息了整理与抽象，但对知识的使用缺少关注。我在很多 MOOC 笔记网站看到了很多归纳十分精彩笔记，但是感觉过于专著笔记的逻辑结构了，这样在严谨的逻辑框架下很难使用这些知识。有时候理科思维是需要工科思维来落地的，最简单的方法就是进行知识输出的场景训练。</p>
+
+<p>写作、演讲与教学（TA）是目前我认为最好的让知识解压的训练方法。当你看到一个好的创意或工具，简单的收藏与归类并不能让知识变成你的，得用作者的思路重新走一遍，想象自己提出了这个方法并要教给别人，然后在教的过程体会方法局限性。这个过程知识从抽象变具象，增加的信息量就是你使用这个知识的自由度。</p>
+
+<p>其实写作好比一个翻译过程，把别人的话变成自己的话，同时包括了信息输入与输出过程。以我的经验，只有走这么一出，这个知识点才会真正被掌握，随时可以自由使用出来。从这个角度看，应试教育最大的问题可能是学生可通过技巧在不理解知识的情况下取得高分，等到了无法直接套公式的应用场景就只能抓瞎了。</p>
+
+<p>其实这个问题最严重的情况是出在科技论文的写作上，以我有限的文献阅读经验，经常发现作者在使用一些方法时只是单纯山寨了其他论文的方法模版，也就是通过排列组合把自己的研究嵌入到一个固定的模式中去，然后就认为一劳永逸了。这样的论文在逻辑严谨性上会继承已发表论文的所有问题，但很难产生新的知识，因为没有新思考来增加信息量。</p>
+
+<p>新的问题总是需要新的知识与思索来论证，论文不是让你阐述事实而是论述新知识，所有的手段都是在说服读者认同你的观点，很难想象在根本不理解方法的情况下单纯追求方法本身有多大意义，特别是数据分析方法。我们不仅需要可重复性的研究，更需要有思考的解压式研究，这部分才是科研里最有意思的部分。</p>
+
+<p>回到知识预处理 ，单纯追求效率意义同样不大，一年读几百本书或几分钟读一本书都是在刷数据，舍本逐末。知识管理最好的验证不是数据，而是不断问自己我的知识与思考自由度是否更大了？从知识的应用角度进行验证是最简单的，或者说带着问题去求知是最有效的，让知识压缩进头脑，然后解压成行动，每一步都有思考反馈才是对知识本身的尊重。</p>
+
+<p>现代社会的压力让所有人都焦虑，最开始是害怕自己落后，后来是害怕孩子落后。解决焦虑的方法是购买确定性，例如学个高薪专业（CS）、买个学区房、考个证、嫁个有钱人… 这也是拒绝思考的表现，所有现阶段的确定性都存在未来的不确定性，不是说你花了钱就安全了，最多是感到安全而已。对知识的追求也是如此，很多人只是为了缓解焦虑而求知，没用的，只有理解并拥抱不确定性才能真正解决焦虑问题，体会知识本身乐趣。</p>
+
+<p>如果你的求知目标是确定的，例如拿到生统PhD迈入学术界，那这个问题就是 AI 可解可优化的，那么只要计算能力在提高，总有一天 AI 可以帮助你，然后替代你。但 AI 是无法提出并优化求解一个不存在或矛盾的问题的，不信你可以问 AI 电车难题，是要一个胖子死还是四个瘦子死，AI 解不了这类逻辑悖论或伦理问题，写不出 loss function或只能写一种原则下的 loss function或加权几种原则下 loss function，原则还是要人提出来。这类充满矛盾与不确定性的原则才是应该花费时间去思考的，焦虑未来的不确定性实在多余，未来总是有不确定性的，正是有不确定性人才不是机器。</p>
+
+<p>其实只有一种知识处理原则，那就是拥抱而不是放弃思考。</p>
+
+      </div>
+
+      
+
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "http-jiayi-rbind-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Jiayi Ji &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//http-jiayi-rbind-io.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
