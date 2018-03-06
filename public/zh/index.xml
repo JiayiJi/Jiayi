@@ -11,6 +11,75 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>统计博客圈的书剑恩仇</title>
+      <link>/zh/post/2018-03-05-blog-debate/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/post/2018-03-05-blog-debate/</guid>
+      <description>&lt;p&gt;有人的地方就有江湖。&lt;/p&gt;
+
+&lt;p&gt;推动科学进步的是学术争论，大家围坐一席以数据与逻辑为工具互相质疑，寻求共识。但事实上这个过程中并不缺乏个人或群体情感的介入，这一方面是现代科研职业化所导致的拿钱吃饭，另一方面则是科研人员自身的主观好恶。这一点在统计学家的博客上展示的淋漓尽致，虽然在学术期刊里发评论比较正式，但在预印本、数据共享与可重复性研究的大趋势下，越来越多的统计学家选择时效性更高的非同行评议的博客来对科学进展进行评论。借助这些社交媒体，我们也可以一窥他们对学术观点的爱恨情仇，也许有人不屑于这些主观性比较强的评论，但从学术交流的角度出发，如果我们仅仅通过学术期刊与会议交流学术观点，由于存在审稿与运作周期，很多共识会消耗大量的传播成本来达成，这不仅与信息时代脱节，也会造成资源浪费。下面我们看些案例感受下国外学术界在博客这一媒介上的观点交锋：&lt;/p&gt;
+
+&lt;p&gt;案例一：“主观”的贝叶斯方法&lt;/p&gt;
+
+&lt;p&gt;我们哥伦比亚大学的 Andrew Gelman 的博客可以算得上是个火药桶了，他本身主张贝叶斯学派，而赶巧贝叶斯学派跟频率学派可以算得上科研数据分析里哲学思想差异最大的两派，起码按我的粗浅认识是根本无法调和的，所以即便实用上甚至算法上都差异不大，想对这两种思想和稀泥基本都会被 Gelman 教授无情嘲讽，如果你还打算说贝叶斯不好，基本上会被博文讨伐。当然，也不是所有人都有这个待遇，同方舟子的做法类似， Gelman 教授基本也是逮着大鱼去坑。需要提醒的是他可不是方舟子那种十几年不做科研的学术圈外人士，其本人是我们哥伦比亚大学应用统计中心的主任，其团队的研究领域十分广阔。顺带一提，著名贝叶斯统计软件 stan 就出自这个团队。&lt;/p&gt;
+
+&lt;p&gt;这次事情的起因是卡内基·梅隆大学著名的 Larry Wasserman 教授（2016年当选美国国家科学院院士）在接受一个博客&lt;a href=&#34;https://errorstatistics.com/2013/12/28/wasserman-on-wasserman-update-december-28-2013/&#34; target=&#34;_blank&#34;&gt;采访&lt;/a&gt;时对频率学派与贝叶斯学派下了个定义：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I wish people were clearer about what Bayes is/is not and what  frequentist inference is/is not. Bayes is the analysis of subjective  beliefs but provides no frequency guarantees. Frequentist inference  is about making procedures that have frequency guarantees but makes no pretense of representing anyone’s beliefs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Gelman 教授对其频率学派的观点没啥意见，但那个 &amp;ldquo;subjective&amp;rdquo; 直接引爆了火药桶。而按照 Gelman 的定义，贝叶斯方法应该是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Using inference from the posterior distribution, p(theta|y)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;特别的，他还认为：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Science is always full of subjective human choices, and it’s always about studying larger questions that have an objective reality.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;坦白说这个看法是比较符合科学史的，虽然当今科学理论体系逻辑上相对完备（先排除下哥德尔跟量子力学），但其发展确实很曲折，在实验数据跟统计决策成为主流之前，很多理论在发现或提出时主流科学家并不接受，有的是逻辑上不接受（很多新理论完全不容于旧理论），有的则属于威权集团打压，可以说相当主观。&lt;/p&gt;
+
+&lt;p&gt;但在后面的论述中，Gelman 教授就开启嘲讽技能了，Larry 认为在高维数据处理中贝叶斯方法没意义无法解释，Gelman 教授则反驳说他觉得除了贝叶斯方法别的方法也都是解释不通的，并且他认为 Larry 自己不懂贝叶斯还瞎定义是十分不妥的。不得不说这段论述很没营养，跟小学生吵架差不多。紧接着 Gelman 教授又提到主观确实是贝叶斯方法的一部分但不是全部，那频率学派是不是可以说成“简单随机采样的技术”，科学研究范围在拓展，各种方法也在发展，贝叶斯方法可以研究客观问题。这个说法也比较中肯，接下来 Gelman 教授又开启了挖坟模式，他把 Larry 08年到13年关于贝叶斯方法中随机性看法的转变给列了出来，紧接着又说我也有这个转变过程。但文章最后他又翻了 Larry 对经济学家的旧账，认为他存在个人偏见。&lt;/p&gt;
+
+&lt;p&gt;看起来这个文章似乎比较正常，但这篇博文真正有趣的是评论，基本上集中了当今统计学中各路高手，下面是个不完全名单：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nick Cox 杜伦大学 Stata 元老级开发者&lt;/li&gt;
+&lt;li&gt;Larry Wasserman 卡内基·梅隆大学教授 当事人&lt;/li&gt;
+&lt;li&gt;Deborah G. Mayo 宾夕法尼亚大学教授 采访 Larry 的人 errorstatistics.com 博主&lt;/li&gt;
+&lt;li&gt;Kevin Dick 斯坦福毕业 创业者 possibleinsight.com 博主&lt;/li&gt;
+&lt;li&gt;Judea Pearl UCLA 教授 &lt;a href=&#34;http://causality.cs.ucla.edu/blog/&#34; target=&#34;_blank&#34;&gt;http://causality.cs.ucla.edu/blog/&lt;/a&gt; 博主&lt;/li&gt;
+&lt;li&gt;Christian Hennig 伦敦大学学院教授&lt;/li&gt;
+&lt;li&gt;Norm Matloff UC Davis 教授&lt;/li&gt;
+&lt;li&gt;Brendan K O&amp;rsquo;Rourke 都柏林理工教授 &lt;a href=&#34;http://www.brendankorourke.com/&#34; target=&#34;_blank&#34;&gt;http://www.brendankorourke.com/&lt;/a&gt; 博主&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我们可以看出这么几件事：首先，这些领域内专家会互相关注对方的个人网站并通过这种方式互动；其次，看他们的讨论很有启发，比看书本上的干货更有意思，导致我现在每天花在统计博客上的时间比教科书多得多😂；再次，很多讨论虽然对问题是没营养的，但有助于我们了解一些学术界的风格或流派。在前沿领域由于知识不全，多数情况是无法达成共识的，但通过了解其流派风格会帮助你更全面的看问题。&lt;/p&gt;
+
+&lt;p&gt;案例二：ggplot v.s. base plot&lt;/p&gt;
+
+&lt;p&gt;R作为我们统计人最习惯的编程语言，同时拥有强大的绘图功能。其绘图包主要分为系统自带的基础模式和Hadley Wickham发明的ggplot。在ggplot刚刚兴盛起来时，著名统计博客&lt;a href=&#34;https://simplystatistics.org/&#34; target=&#34;_blank&#34;&gt;simplystatistics&lt;/a&gt;的博主之一Jeef Leek发了一篇博客，名叫&lt;a href=&#34;https://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/&#34; target=&#34;_blank&#34;&gt;我为什么不喜欢ggplot&lt;/a&gt;，当时引起轩然大波。一天之后，我最敬仰的数据科学家David Robison立马在他博客里发文，名叫&lt;a href=&#34;http://varianceexplained.org/r/why-I-use-ggplot2/&#34; target=&#34;_blank&#34;&gt;我为什么喜欢ggplot&lt;/a&gt;。但为了把故事讲的通透点，这位老兄追根溯源并展示了自己强大的R编程能力，对base R质疑，从作图速度到作图方便程度娓娓道来，行文令人拍案叫绝，最后在结论部分发起最后挑战，希望有更多人来质疑他的论据，可谓是上演了进攻-防守-再进攻的三部曲。&lt;/p&gt;
+
+&lt;p&gt;最近Hadley Wickham提倡他所主张的tidyverse，也收到了一些老牌R用户的质疑。但Hadley作为一派之长，还是包着兼容并蓄的态度发表了以下的和解申明：&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You can not use &lt;a href=&#34;https://twitter.com/hashtag/tidyverse?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tidyverse&lt;/a&gt; without base R. It&amp;#39;s not a dichotomy. Pick the tools that make you most effective.&lt;/p&gt;&amp;mdash; Hadley Wickham (@hadleywickham) &lt;a href=&#34;https://twitter.com/hadleywickham/status/903103150332280832?ref_src=twsrc%5Etfw&#34;&gt;August 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;的确，科学研究就是会掺杂各种主观情感，但作为旁观者，我们可以从中去学习他们讨论问题的方法，例如 David Robison 和 Jeef Leek 的对自己观点的论证过程，虽然不如发表文章里那么逻辑完备，但思考步骤都是比较清晰的，而这个过程你在期刊论文中往往看不到，好比你看到的总是对方站在山顶但怎么爬上去的一般都不会写，但有时候这些看似琐碎的步骤却足够让你永远达不到那个高度。&lt;/p&gt;
+
+&lt;p&gt;顺带一提， David Robinson 博士的博客上还友情链接了 Jeef Leek 教授的博客。我想说的是在国外是真真切切存在着通过博客的学术交流的，参与学者的水平也是相当强悍，而且不同于国内科研向公众号或博客满足于对论文的解读，这些博客上更多出现的是一种批判式讨论，而且夹杂了相当重的个人情绪，如果你打算阅读也是需要辨伪存真的，这本身对于提高科研思维也有帮助。&lt;/p&gt;
+
+&lt;p&gt;其实类似的故事还有很多，你可以从这篇文章里出发用关键词去探索。我在前面的文本分析的文章中曾提到越是高端的论文，发表勘误的比率就越是很高，这说明前沿领域的研究不确定性是很高的，思想碰撞也很激烈。如果把推特等社交媒体上的各类花式吐槽也算进去，你会发现科研领域有很多烧脑的故事，各路参与者也从来都不缺名校光环跟牛文加持，阴谋诡计、解释掩饰、爱恨情仇等可能被小心翼翼地埋藏在数据与图表之中，虽然看懂需要比较高的门槛，但也正是这种门槛屏蔽了围观群众，上演一幕幕精彩绝伦但需要自行判断的书剑恩仇。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>主成分分析那些事儿</title>
       <link>/zh/post/pca/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>

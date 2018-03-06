@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/zh/post/2018-03-05-blog-debate/</loc>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/zh/post/pca/</loc>
       <lastmod>2018-03-04T00:00:00+00:00</lastmod>
     </url>
@@ -79,7 +88,7 @@
       <xhtml:link rel="alternate" href="/post/" hreflang="en"/>
     
       <loc>/zh/post/</loc>
-      <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
