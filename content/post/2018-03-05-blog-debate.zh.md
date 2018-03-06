@@ -45,7 +45,7 @@ Gelman 教授对其频率学派的观点没啥意见，但那个 "subjective" �
 
 案例二：ggplot v.s. base plot
 
-R作为我们统计人最习惯的编程语言，同时拥有强大的绘图功能。其绘图包主要分为系统自带的基础模式和Hadley Wickham发明的ggplot。在ggplot刚刚兴盛起来时，著名统计博客[simplystatistics](https://simplystatistics.org/)的博主之一Jeef Leek发了一篇博客，名叫[我为什么不喜欢ggplot](https://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/)，当时引起轩然大波。一天之后，我最敬仰的数据科学家David Robison立马在他博客里发文，名叫[我为什么喜欢ggplot](http://varianceexplained.org/r/why-I-use-ggplot2/)。但为了把故事讲的通透点，这位老兄追根溯源并展示了自己强大的R编程能力，对base R的质疑从作图速度到作图方便程度娓娓道来，行文令人拍案叫绝，最后在结论部分发起最后挑战，希望有更多人来质疑他的论据，可谓是上演了进攻-防守-再进攻的三部曲。
+R作为我们统计人最习惯的编程语言，同时拥有强大的绘图功能。其绘图包主要分为系统自带的基础模式和Hadley Wickham发明的ggplot。在ggplot刚刚兴盛起来时，著名统计博客[simply statistics](https://simplystatistics.org/)的博主之一Jeef Leek发了一篇博客，名叫[我为什么不喜欢ggplot](https://simplystatistics.org/2016/02/11/why-i-dont-use-ggplot2/)，当时引起轩然大波。一天之后，我最敬仰的数据科学家David Robison立马在他博客里发文，名叫[我为什么喜欢ggplot](http://varianceexplained.org/r/why-I-use-ggplot2/)。但为了把故事讲的通透点，这位老兄追根溯源并展示了自己强大的R编程能力，对base R的质疑从作图速度到作图方便程度娓娓道来，行文令人拍案叫绝，最后在结论部分发起最后挑战，希望有更多人来质疑他的论据，可谓是上演了进攻-防守-再进攻的三部曲。
 
 最近Hadley Wickham提倡他所主张的tidyverse，也收到了一些老牌R用户的质疑。但Hadley作为一派之长，还是包着兼容并蓄的态度发表了以下的和解申明：
 
