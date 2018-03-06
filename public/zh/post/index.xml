@@ -81,10 +81,10 @@
     
     <item>
       <title>主成分分析那些事儿</title>
-      <link>/zh/post/pca/</link>
+      <link>/zh/post/2018-03-04-pca/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/zh/post/pca/</guid>
+      <guid>/zh/post/2018-03-04-pca/</guid>
       <description>&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;目之所及，主成分分析应该是科研领域里最通用的一种数据分析手段。在相当长的一段时间里，我认为这种方法主要是用来进行探索分析的可视化手段与数据降维，但最近在帮根哥写一个监督式PCA的R包就把主成分分析又拎出来看了一下，这才意识到这个方法其实四通八达，可以把很多数据分析的概念连接起来。&lt;/p&gt;
