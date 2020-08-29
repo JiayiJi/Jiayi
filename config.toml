@@ -33,9 +33,9 @@ defaultContentLanguageInSubdir = false
   
   name = "Jiayi Ji"
   description = "Personal Website"
-  role = "M.S. in Biostatistics Candidate"
-  organization = "Columbia University"
-  organization_url = "http://www.columbia.edu/"
+  role = "Biostatistician"
+  organization = "Mount Sinai"
+  organization_url = "https://www.mountsinai.org/"
   gravatar = true
   avatar = ""
   email = "jjy2876@gmail.com"
