@@ -30,8 +30,8 @@ weight = 5
 
 # About me
 
-I am a second-year biostatistics master student at [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/). Prior to switching careers into statistics, I earned my M.D in preventive medicine at [Fudan University](http://www.fudan.edu.cn/en/). I am passionate about analyzing data in public health/hospital setting. Recently I am getting more interested in data science and machine learning. My goal is to become an outstanding data analyst.
+I joined the [Department of Population Health Science & Policy at Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/research/institute-health-care-delivery/tci-biostatistics) as a biostatistician in May 2018. I obtained my MS in Biostatistics from [Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/) in May 2018. Prior to switching careers into statistics, I earned my M.D in preventive medicine at [Fudan University](http://www.fudan.edu.cn/en/). My research focuses on statistical computing and graphics, multi-omics integrative analysis, high-dimensional data analysis, Bayesian data analysis and causal inference, with application in genomic and proteomic studies, functional genomics and cancer research.
 
-In my spare time, I like watching movies and sports games, listening musics, reading books, hiking, etc.
+In my spare time, I like listening to classical musics and watching sports games, reading books, hiking, etc.
 
 
